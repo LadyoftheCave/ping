@@ -1,0 +1,140 @@
+body {
+  font-family: "Libre Franklin", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+section {
+  width: 23.4rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#dashboard {
+  inline-size: 80%;
+  margin-bottom: 5rem;
+}
+
+input::placeholder {
+  color: hsl(223, 18%, 58%);
+  font-size: 0.7rem;
+}
+
+#logo {
+  margin-block-start: 3rem;
+  inline-size: 3rem;
+}
+
+h1 {
+  font-weight: 200;
+  font-size: 1.2rem;
+  color: hsl(0, 0%, 59%);
+  margin-top: 2rem;
+}
+
+span {
+  font-weight: 600;
+  color: black;
+}
+
+h2 {
+  font-size: 0.7rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+#email {
+  inline-size: 65%;
+  border: 1px solid hsl(223, 100%, 88%);
+  border-radius: 25px;
+  padding: 0.5rem;
+  font-family: "Libre Franklin", sans-serif;
+  padding-left: 2rem;
+  box-sizing: border-box;
+  block-size: 2.2rem;
+}
+
+button {
+  border: none;
+  inline-size: 65%;
+  background-color: hsl(223, 87%, 63%);
+  font-family: "Libre Franklin", sans-serif;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 15px;
+  margin: 0 0 5rem 0;
+  font-weight: 600;
+  font-size: 0.7rem;
+  block-size: 2.2rem;
+}
+
+form {
+  inline-size: 100%;
+}
+
+.social_container {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.social_media {
+  inline-size: 1.2rem;
+  block-size: 1.2rem;
+  border: 1px solid hsl(0, 1%, 79%);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  margin-bottom: 1.8rem;
+}
+
+.social_media img {
+  inline-size: 0.75rem;
+  fill: hsl(0, 0%, 59%);
+}
+
+p {
+  font-size: 0.6rem;
+  color: hsl(0, 0%, 59%);
+}
+@media screen and (min-width: 1440px) {
+  #logo {
+    inline-size: 4rem;
+  }
+  h1 {
+    font-weight: 200;
+    font-size: 2.5rem;
+    color: hsl(0, 0%, 59%);
+    margin-bottom: 0;
+  }
+
+  section {
+    width: 40rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  .valid_checker {
+    inline-size: 30rem;
+  }
+
+  #email {
+    block-size: 3rem;
+    inline-size: 100%;
+  }
+  button {
+    block-size: 3rem;
+    inline-size: 10rem;
+    border-radius: 30px;
+  }
+
+  form {
+    display: flex;
+    gap: 2rem;
+  }
+}
